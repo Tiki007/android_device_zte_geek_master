@@ -1,0 +1,4 @@
+
+on boot
+    insmod /lib/modules/rmi4.ko boot_mode=1
+

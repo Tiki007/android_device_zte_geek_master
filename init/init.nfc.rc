@@ -1,0 +1,10 @@
+on boot
+
+# Permissions for NFC
+    setprop ro.nfc.port "I2C"
+    chmod 0660 /dev/pn544
+    chown nfc nfc /dev/pn544
+
+# Enable NFC tracing
+setprop debug.nfc.JNI 1
+setprop debug.nfc.LLC_TRACE 1

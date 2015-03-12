@@ -1,0 +1,23 @@
+videobuf-core.ko:
+cfg80211.ko:
+bu64291.ko: ov8830.ko
+mac80211.ko: cfg80211.ko
+intel_mid_ssp_test_driver.ko:
+sp1628.ko:
+bcmdhd.ko: cfg80211.ko
+vtsspp.ko:
+bcm_bt_lpm.ko:
+st_drv.ko:
+tty_hci.ko: st_drv.ko
+ov8830.ko:
+ov9740.ko:
+videobuf-vmalloc.ko: videobuf-core.ko
+scsi_wait_scan.ko:
+matrix.ko:
+adp1650.ko:
+sep3_10.ko:
+test_nx.ko:
+pax.ko:
+apwr3_1.ko:
+atomisp.ko: videobuf-vmalloc.ko videobuf-core.ko
+sgx.ko:
